@@ -231,6 +231,79 @@ button:hover {
     font-weight: 600;
 }
 
+/*Work*/
+.csInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #030720;
+    color: #D7F2D6;
+    text-align: center;
+    height: 300px;
+}
+/*Grid*/
+
+#workGrid {
+    margin: 0px 8% 5% 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+    grid-template-areas:  
+    "hudMock hudInfo hudInfo"
+    "victualInfo victualInfo victualMock"
+    "foodMock foodInfo foodInfo";
+}
+
+
+#hudMock {
+    grid-area: hudMock;
+    text-align: center;
+}
+#hudInfo {
+    grid-area: hudInfo;
+}
+
+#victualInfo {
+    grid-area: victualInfo;
+}
+#victualMock {
+    grid-area: victualMock;
+    text-align: center;
+}
+
+#foodMock {
+    grid-area: foodMock;
+    text-align: center;
+}
+#foodInfo {
+    grid-area: foodInfo;
+}
+
+#csButtonOrange {
+    background-color: #ffffff;
+    border: #F36E25 solid 3px;
+    width: 200px;
+}
+
+#csButtonYellow {
+    background-color: #ffffff;
+    border: #FDCD77 solid 3px;
+    width: 200px;
+}
+
+#csButtonGreen {
+    background-color: #ffffff;
+    border: #78BC89 solid 3px;
+    width: 200px;
+}
+
+.csTitle {
+    color: #fa8858;
+}
+
+
 /*Footer*/
 footer {
     margin-top: 100px;
@@ -260,3 +333,4 @@ footer {
         justify-content: space-around;
         align-items: center;
     }
+    
