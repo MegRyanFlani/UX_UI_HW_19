@@ -126,7 +126,6 @@ nav {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 
 /* The dots/bullets/indicators */
 .dot {
@@ -134,14 +133,26 @@ nav {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #ddd;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
+.one {
+    background-color: #F36E25;
+}
+.two {
+    background-color: #FDCD77;
+}
+.three {
+    background-color: #78BC89;
+}
+.four {
+    background-color: #D7F2D6;
+}
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #030720;
 }
 
 /* Fading animation */
