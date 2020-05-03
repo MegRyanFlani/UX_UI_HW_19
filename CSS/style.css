@@ -1,0 +1,161 @@
+
+/*General Stuff*/
+h1, h2 , h3, h4, h5, h6 {
+    font-family: 'Baloo Da 2', cursive;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 400;
+    font-size: 14pt;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: #030720 3px solid;
+}
+
+a {
+    color: #030720;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 600;
+}
+/*Nav Stuff*/
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons {
+    display: none;
+}
+
+.nav-title {
+    font-family: 'Baloo Da 2', cursive;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #030720;
+}
+
+/* Specific Nav Items*/
+
+.Resume {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.Resume:hover {
+    color: #F36E25;
+    font-weight: 600;
+}
+
+
+/*Hero Carosoul*/
+
+/* Slideshow container */
+.mySlides {
+    position: relative;
+  text-align: center;
+  color:#030720;
+  display: none;
+}
+
+.active {
+    display: inline-block;
+}
+
+.text {
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 18pt;
+  font-weight: 600;  
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+/*Skills*/
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.up {
+    margin-bottom: 150px;
+}
+
+.down {
+    margin-top: 150px;
+}
+
+/*Recent Projects*/
+.Recent-Projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.project {
+    width: 300px;
+    padding: 10px 5px 10px 5px;
+}
+
+/* Specific Projects*/
+
+.Recent-Projects .LKB {
+    border: 3px solid #F36E25;
+}
+
+.Recent-Projects .AFB {
+    border: 3px solid #78BC89;
+}
+
+.Recent-Projects .HUD {
+    border: 3px solid #FDCD77;
+}
+
+
+/*Footer*/
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.foot-icons {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+
+/*Median Queries*/
+
+@media only screen and (max-width: 900px) {
+    
+    .nav-item {
+      display: none;
+    }
+    .icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
