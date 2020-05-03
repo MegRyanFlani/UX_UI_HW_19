@@ -1,6 +1,8 @@
 var Hello="I hope this works so badly";
 console.log(Hello);
 
+//SLIDESHOW HERO ARROWS//
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -29,3 +31,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+//Skills
+
