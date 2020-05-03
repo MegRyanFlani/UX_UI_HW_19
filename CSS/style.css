@@ -231,6 +231,69 @@ button:hover {
     font-weight: 600;
 }
 
+/*About CSS*/
+#aboutMe {
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+#mainAbout {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+#Hi {
+    color: #fa8858;
+    text-align: left;
+}
+
+#mainPara {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#mainImage {
+    float: left;
+}
+
+#otherAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1%;
+}
+
+.otherInterests {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 18pt;
+    color: #fa8858;
+    background:none ;
+}
+
+#otherPics {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.top {
+    margin-bottom: 50px;
+}
+
+.bottom {
+    margin-top: 50px;
+}
+
+
 /*Work*/
 .csInfo {
     display: flex;
