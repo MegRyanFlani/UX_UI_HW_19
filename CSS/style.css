@@ -216,6 +216,17 @@ nav {
     border: 3px solid #FDCD77;
 }
 
+.lastButton {
+    display: flex;
+    justify-content: center
+}
+.AllProjects {
+    width: 300px;
+    height: 70px;
+    border: solid 5px #030720;
+    margin-top: 50px;
+    font-size: 18pt;
+}
 button:hover {
     font-weight: 600;
 }
