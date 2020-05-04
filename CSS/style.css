@@ -302,6 +302,14 @@ button:hover {
     margin-top: -20px;
 }
 
+/*.fact-text {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 14px;
+    text-align: center;
+}*/
+
+
+
 #mainAbout {
     display: flex;
     justify-content: center;

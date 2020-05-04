@@ -53,3 +53,7 @@ function showSlides(n) {
   $("#Testing").hover(function(){
     $("#TestingSkills").fadeToggle();
   });
+
+  //About Facts
+  
+    
