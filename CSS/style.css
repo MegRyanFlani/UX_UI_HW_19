@@ -190,6 +190,69 @@ nav {
     margin-top: 150px;
 }
 
+#EmpathySkills {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 250px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: solid 3px #F36E25;
+    box-shadow: 5px 5px 5px #F36E25;
+    z-index: 100;
+    display: none;
+}
+
+#DefinitionSkills {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #FDCD77;
+    border: solid 3px #FDCD77;
+    z-index: 100;
+    display: none;
+}
+
+#IdeationSkills {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 150px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #78BC89;
+    border: solid 3px #78BC89;
+    z-index: 100;
+    display: none;
+}
+
+#PrototypingSkills {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #78BC89;
+    border: solid 3px #78BC89;
+    z-index: 100;
+    display: none;
+}
+
+#TestingSkills {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 200px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #F36E25;
+    border: solid 3px #F36E25;
+    z-index: 100;
+    display: none;
+}
+
 /*Recent Projects*/
 .Recent-Projects {
     display: flex;

@@ -34,3 +34,22 @@ function showSlides(n) {
 
 //Skills
 
+  $("#Empathize").hover(function(){
+    $("#EmpathySkills").fadeToggle();
+  });
+
+  $("#Definition").hover(function(){
+    $("#DefinitionSkills").fadeToggle();
+  });
+
+  $("#Ideation").hover(function(){
+    $("#IdeationSkills").fadeToggle();
+  });
+
+  $("#Prototyping").hover(function(){
+    $("#PrototypingSkills").fadeToggle();
+  });
+
+  $("#Testing").hover(function(){
+    $("#TestingSkills").fadeToggle();
+  });
