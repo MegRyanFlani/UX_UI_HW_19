@@ -278,6 +278,7 @@ nav {
     border: 3px solid #FDCD77;
 }
 
+
 .lastButton {
     display: flex;
     justify-content: center;
@@ -468,5 +469,3 @@ footer {
         justify-content: space-around;
         align-items: center;
     }
-
-    
