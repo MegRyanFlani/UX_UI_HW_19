@@ -322,16 +322,30 @@ button:hover {
 
 #Hi {
     color: #fa8858;
-    text-align: left;
+}
+
+#contactMe {
+   
+}
+
+#email {
+    color: #F36E25;
+}
+
+#email:hover {
+    color: #78BC89;
+    text-decoration: underline;
 }
 
 #mainPara {
     display: flex;
     flex-direction: column;
+    
     padding-left: 20px;
 }
 
 #mainImage {
+    padding-top: 20px;
     float: left;
 }
 
